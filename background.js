@@ -1,5 +1,5 @@
 // Configuration
-const API_BASE_URL = "https://your-vercel-app.vercel.app/api"
+const API_BASE_URL = "https://random-facts-extension.vercel.app/api"
 const FACTS_PER_DAY_FREE = 5
 
 // Storage keys

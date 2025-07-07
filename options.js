@@ -1,5 +1,5 @@
 // Configuration
-const API_BASE_URL = "https://your-vercel-app.vercel.app/api" // Update this with your Vercel URL
+const API_BASE_URL = "https://random-facts-extension.vercel.app/api" // Update this with your Vercel URL
 const STRIPE_PUBLISHABLE_KEY = "pk_test_your_stripe_key" // Update with your Stripe key
 
 // Storage keys

@@ -3,7 +3,7 @@ class FactPopup {
     this.settings = null
     this.currentFact = null
     this.chrome = window.chrome // Declare the chrome variable
-    this.API_BASE_URL = "https://your-vercel-app.vercel.app/api" // Declare the API_BASE_URL variable
+    this.API_BASE_URL = "https://random-facts-extension.vercel.app/api" // Declare the API_BASE_URL variable
     this.STRIPE_PUBLISHABLE_KEY = "pk_test_your_stripe_key" // Declare the STRIPE_PUBLISHABLE_KEY variable
     this.STORAGE_KEYS = {
       PREMIUM_STATUS: "premiumStatus",
