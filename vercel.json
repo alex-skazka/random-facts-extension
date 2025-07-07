@@ -1,0 +1,33 @@
+{
+  "version": 2,
+
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/scripts/backend-api.js"
+    },
+    {
+      "src": "/health",
+      "dest": "/scripts/backend-api.js"
+    },
+    {
+      "src": "/database-manager.html",
+      "dest": "/database-manager.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/scripts/backend-api.js"
+    }
+  ],
+  "env": {
+    "STRIPE_SECRET_KEY": "@stripe_secret_key"
+  },
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 30
+    },
+    "scripts/backend-api.js": {
+      "maxDuration": 30
+    }
+  }
+}
